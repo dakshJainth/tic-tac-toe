@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(91, 34, 9);
+}
+
+h1{
+    align-items: center;
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid{
+    margin: 20px;
+    background-color: rgb(139, 87, 19);
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+    background-color: rgb(252, 235, 214);
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: none;
+    margin: 3px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+}
+
+.re{
+    width: 150px;
+    height: 50px;
+}
+
+
+.button{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
